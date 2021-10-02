@@ -59,12 +59,7 @@ const members_arr = [
 function Members({ deviceWidth }) {
   return (
     <>
-      <p
-        style={{ fontSize: 25, fontWeight: 700 }}
-        className="pt-5 pb-5 titles container"
-      >
-        We are Members of
-      </p>
+      <p className="pt-5 pb-5 titles container">We are Members of</p>
       <div className="row pb-5">
         {members_arr.map((member) => {
           return (

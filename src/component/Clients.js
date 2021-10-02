@@ -68,12 +68,7 @@ const company_clients = [
 function Clients({ deviceWidth }) {
   return (
     <>
-      <p
-        style={{ fontSize: 25, fontWeight: 700 }}
-        className="pt-5 pb-5 container titles"
-      >
-        Our Clients
-      </p>
+      <p className="pt-5 pb-5 container titles">Our Clients</p>
 
       <div className="row mb-5">
         {company_clients.map((client) => {

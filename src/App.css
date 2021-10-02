@@ -88,5 +88,44 @@
 
 /* common */
 .titles{
-  font-size: "25px"; font-weight: "700";
+  font-size: 25px;
+   font-weight: 700;
 }
+
+
+.paragraph{
+  font-weight: 400;
+   font-size: 18px;
+}
+
+.end-title{
+  font-weight: 500;
+   font-size: 12px;
+}
+
+.no-arrow{
+  height: 6px;
+}
+
+.footer-text{
+  font-weight: 400;
+   font-size: 12px;
+}
+
+.font-weight-500{
+  font-weight:500;
+}
+
+
+.carousal-overlay{
+  z-index:9999;
+  top: 25%;
+  /* left: 25%; */
+}
+
+.social-icons{
+  width: 16px;
+   height: 16px
+}
+
+

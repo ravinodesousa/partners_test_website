@@ -16,15 +16,13 @@ function Carousal({ carousal_ref }) {
       />
       <img
         src={group_img}
-        className="img-fluid d-none d-sm-none d-md-block d-lg-block w-75 h-50 mx-auto my-auto position-absolute"
+        className="img-fluid carousal-overlay d-none d-sm-none d-md-block d-lg-block w-75 h-50 mx-auto my-auto position-absolute"
         alt="carousal-image"
-        style={{ zIndex: 9999, top: "25%", start: 0 }}
       />
       <img
         src={group1_img}
-        className="img-fluid d-block d-sm-block d-md-none d-lg-none w-75 h-50 mx-auto my-auto position-absolute"
+        className="img-fluid carousal-overlay d-block d-sm-block d-md-none d-lg-none w-75 h-50 mx-auto my-auto position-absolute"
         alt="carousal-image"
-        style={{ zIndex: 9999, top: "25%", start: 0 }}
       />
     </div>
   );

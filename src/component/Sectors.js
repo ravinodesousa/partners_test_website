@@ -41,11 +41,7 @@ const engineering_sectors = [
 function Sectors({ deviceWidth }) {
   return (
     <>
-      <p
-        id="Sectors"
-        style={{ fontSize: 25, fontWeight: 700 }}
-        className="pt-5 titles"
-      >
+      <p id="Sectors" className="pt-5 titles">
         Engineering Sectors
       </p>
       <div className="row mt-4 ">
@@ -70,9 +66,7 @@ function Sectors({ deviceWidth }) {
         })}
       </div>
 
-      <p style={{ fontWeight: 500, fontSize: 12 }} className="pb-5">
-        {">"}Engineering Sectors
-      </p>
+      <p className="end-title pb-5">{">"}Engineering Sectors</p>
     </>
   );
 }

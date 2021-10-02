@@ -24,20 +24,13 @@ const worked_projects = [
 function Projects() {
   return (
     <>
-      <p
-        id="Projects"
-        style={{ fontSize: 25, fontWeight: 700 }}
-        className="pt-5 titles pb-5 container"
-      >
+      <p id="Projects" className="pt-5 titles pb-5 container">
         Our Projects
       </p>
       <div className="row ">
         {worked_projects.map((project) => {
           return (
-            <div
-              className="project-img-container col-sm-12 col-md-4 p-1"
-              // style={{ height: 366, width: 477 }}
-            >
+            <div className="project-img-container col-sm-12 col-md-4 p-1">
               <img
                 src={project.img_src}
                 alt={project.img_alt}
@@ -51,12 +44,7 @@ function Projects() {
         })}
       </div>
 
-      <p
-        style={{ fontWeight: 500, fontSize: 12 }}
-        className="pb-5 pt-5 container"
-      >
-        {">"}Our Projects
-      </p>
+      <p className="end-title pb-5 pt-5 container">{">"}Our Projects</p>
     </>
   );
 }

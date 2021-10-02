@@ -38,7 +38,7 @@ function NavBar({ background, variant, carousal_ref }) {
               {active_navlink == "Home" ? (
                 <img src={arrow_down} width={12} height={6} />
               ) : (
-                <div style={{ height: 6 }}></div>
+                <div className="no-arrow"></div>
               )}
               HOME
             </Nav.Link>
@@ -52,7 +52,7 @@ function NavBar({ background, variant, carousal_ref }) {
               {active_navlink == "About" ? (
                 <img src={arrow_down} width={12} height={6} />
               ) : (
-                <div style={{ height: 6 }}></div>
+                <div className="no-arrow"></div>
               )}
               ABOUT
             </Nav.Link>
@@ -67,7 +67,7 @@ function NavBar({ background, variant, carousal_ref }) {
               {active_navlink == "Sectors" ? (
                 <img src={arrow_down} width={12} height={6} />
               ) : (
-                <div style={{ height: 6 }}></div>
+                <div className="no-arrow"></div>
               )}
               SECTORS
             </Nav.Link>
@@ -82,7 +82,7 @@ function NavBar({ background, variant, carousal_ref }) {
               {active_navlink == "Projects" ? (
                 <img src={arrow_down} width={12} height={6} />
               ) : (
-                <div style={{ height: 6 }}></div>
+                <div className="no-arrow"></div>
               )}
               PROJECTS
             </Nav.Link>
@@ -97,7 +97,7 @@ function NavBar({ background, variant, carousal_ref }) {
               {active_navlink == "Contact" ? (
                 <img src={arrow_down} width={12} height={6} />
               ) : (
-                <div style={{ height: 6 }}></div>
+                <div className="no-arrow"></div>
               )}
               CONTACT
             </Nav.Link>
